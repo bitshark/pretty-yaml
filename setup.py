@@ -34,7 +34,8 @@ setup(
         'Topic :: Software Development',
         'Topic :: Software Development :: Libraries :: Python Modules'],
 
-    install_requires=['PyYAML'],
+    install_requires=['PyYAML==3.12b', 'unidecode'],
+    dependency_links=['https://github.com/bitshark/pyyaml/zipball/3.12b#egg=pyyaml-3.12b'],
     packages=find_packages(),
     package_data={'': ['README.txt']},
     exclude_package_data={'': ['README.*']})
