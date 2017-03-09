@@ -14,7 +14,7 @@ except IOError:
 setup(
 
     name='pyaml',
-    version='16.12.2c',
+    version='16.12.2x',
     author='Mike Kazantsev',
     author_email='mk.fraggod@gmail.com',
     license='WTFPL',
@@ -34,8 +34,8 @@ setup(
         'Topic :: Software Development',
         'Topic :: Software Development :: Libraries :: Python Modules'],
 
-    install_requires=['PyYAML==3.12e', 'unidecode'],
-    dependency_links=['https://github.com/bitshark/pyyaml/zipball/master#egg=pyyaml-3.12e'],
+    install_requires=['PyYAML==3.12x', 'unidecode'],
+    dependency_links=['https://github.com/bitshark/pyyaml/zipball/master#egg=pyyaml-3.12x'],
     packages=find_packages(),
     package_data={'': ['README.txt']},
     exclude_package_data={'': ['README.*']})
