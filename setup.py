@@ -14,7 +14,7 @@ except IOError:
 setup(
 
     name='pyaml',
-    version='16.12.2',
+    version='16.12.2b',
     author='Mike Kazantsev',
     author_email='mk.fraggod@gmail.com',
     license='WTFPL',
