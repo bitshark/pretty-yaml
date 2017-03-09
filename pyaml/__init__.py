@@ -8,7 +8,7 @@ import os, sys, io, yaml
 if sys.version_info.major > 2: unicode = str
 
 
-class PrettyYAMLDumper(yaml.dumper.SafeDumper):
+class PrettyYAMLDumper(yaml.CDumper):
     def __init__(self, *args, **kws):
         self.pyaml_force_embed = kws.pop('force_embed', False)
         self.pyaml_string_val_style = kws.pop('string_val_style', None)
